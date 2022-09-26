@@ -6,7 +6,11 @@ class Point:
         self.x = x
         self.y = y
 
-    def draw(self):
+    @classmethod
+    def zero(cls):
+        cls(0, 0)  # cls = reference of existing class
+
+    def draw(self):  # instance method
         print(f"draw ({self.x,self.y})")
 
 
