@@ -1,6 +1,7 @@
 class Animal:
 
     def __init__(self):
+        print("Animal Constructor")
         self.age = 1
 
     def eat(self):
@@ -13,6 +14,12 @@ class Fish(Animal):
 
 
 class Mammal(Animal):
+
+    def __init__(self):
+        super().__init__()
+        print("Mammal Constructor")
+        self.weight = 1
+
     def walk(self):
         print("walk")
 
