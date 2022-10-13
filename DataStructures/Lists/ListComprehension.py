@@ -9,4 +9,5 @@ filtered = filter(lambda item: item[1] >= 10, items)
 
 
 prices = [item[1] for item in items]
-prices = list(map(lambda item: item[1], items))
+# prices = list(map(lambda item: item[1], items))
+print(prices)
