@@ -1,3 +1,4 @@
+🐍🐍
 # Python - base repo
 
 This Repo include all my codes and scripts that i have written throughout my learning journey which includes base concepts like
